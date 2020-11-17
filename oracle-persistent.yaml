@@ -77,7 +77,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: oracle12c:12.2.0.1-slim
-          namespace: oracle-test
+          namespace: maximo
       type: ImageChange
     - type: ConfigChange
   status: {}
