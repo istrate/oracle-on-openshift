@@ -76,7 +76,7 @@ objects:
         - oracle12c
         from:
           kind: ImageStreamTag
-          name: oracle12c:12.2.0.1-slim
+          name: oracle12c:12.2.0.1
           namespace: mxtest
       type: ImageChange
     - type: ConfigChange
